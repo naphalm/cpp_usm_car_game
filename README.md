@@ -9,7 +9,7 @@ Car Game
  <li><b>Ce reprezintă proiectul</b>: </li>
 Car Game este un joc de masini simplu, unde jucătorul controlează un o masina ca sa evite loviturile de alte masini
 
- <li><b>Regulile jocului</b>: Vireaza masina pentru a evita accidentele, acumuleaza puncte, incearca sa stai cat mai mult timp in joc. </li>
+ <li><b>Regulile jocului:</b><br/> Vireaza masina pentru a evita accidentele, acumuleaza puncte, incearca sa stai cat mai mult timp in joc. </li>
 
  </ol>
 <b>Header files:</b>
