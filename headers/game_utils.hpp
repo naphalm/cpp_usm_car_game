@@ -1,6 +1,9 @@
 #ifndef GAME_UTILS_HPP
 #define GAME_UTILS_HPP
 
+HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
+COORD CursorPosition;
+
 // Misca cursorul la pozitia (x, y) in consola
 void CursorGotoXY(int x, int y);
 

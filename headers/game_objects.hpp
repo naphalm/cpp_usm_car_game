@@ -2,11 +2,18 @@
 #define GAME_OBJECTS_HPP
 
 // Variabile externe folosite pentru enemy cars positions
-extern int enemyY[3];
-extern int enemyX[3];
-extern int enemyFlag[3];
-extern char car[4][4];
-extern int carPos;
+struct Car {
+    char model[4][4]; // Masina
+    int position;     // pozitia masinii pe ecran
+};
+
+struct Enemy {
+    int x[3];   // Array storing the x-coordinates of enemies.
+    int y[3];   // Array storing the y-coordinates of enemies.
+    int flag[3]; // Flags indicating the status of each enemy.
+};
+
+Car GenPlayerCar();
 
 // Genereaza enemy la pozitie random
 void GenEnemy(int ind);
